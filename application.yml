@@ -1,0 +1,27 @@
+﻿spring:
+  profiles:
+    active: prod
+
+---
+
+
+spring:
+  profiles: dev
+  application: 
+    name: microservice_config_dev
+
+
+---
+
+spring:
+  profiles: prod
+  application: 
+    name: microservice_config_prod
+
+
+---
+
+spring:
+  profiles: test
+  application: 
+    name: microservice_config_test
